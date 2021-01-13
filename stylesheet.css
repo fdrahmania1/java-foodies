@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}
+  
+body {
+    margin: 0;
+}
+  
+header {
+    background-color: rgb(164, 147, 147,0.9);
+    color: #f1e8e8;
+    height: 95px;
+    width: 100%;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.header-logo {
+    font-size: 36px;
+    font-family: fantasy;
+    padding: 20px 40px;
+    float:left;
+}
+  
+.header-list li {
+    font-family: Garamond, serif;
+    font-size: 22px;
+    float: left;
+    padding: 33px 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.main{
+    background-image: url(bg-food2.jpg);
+    background-size:cover;
+    padding: 100 0 200 0;
+    text-align:left;
+    color: #3f281e;
+}
+
+.container{
+    max-width: 1170px;
+    padding:0 15px;
+    margin:0 auto;
+  }
+.atas{
+    padding-top: 95px;
+}
+
+.atas p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.atas h1{
+    font-size: 50px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+}
+
+.atas span{
+    color:crimson;
+}
+
+.content{
+    text-align: center;
+    background-color: #f7f7f7
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #3f281e;;
+  }
+
+.gambar{
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.pilih-makanan{
+    float: left;
+    width: 50%;
+    padding-bottom: 30px;
+}
+.foodies-icon{
+    color: #3f281e;
+    font-size: 30px;
+    position: relative;
+}
+
+.foodies-icon span{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    display: block;
+    top: 0;
+    margin-left: 142px;
+    line-height: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    /* text-shadow: 1px 1px 1px #ddd; */
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.foodies-icon:hover span{
+    opacity: 1;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #3f281e;
+  }
+
+.txt-contents span{
+    color: darkred;
+    font-weight: bold;
+}
+
+
